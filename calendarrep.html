@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="theme3.css"/>
+<script type="text/javascript" src="caleandar.min.js"></script>
+<script src= "caleandar.js"></script>
+</head>
+<body>
+<div id="caleandar">
+</div>
+<script> 
+var events = [
+  {'Date': new Date(2019, 10, 15), 'Title': 'Doctor appointment at 3:25pm.'},
+  {'Date': new Date(2019, 6, 18), 'Title': 'New Garfield movie comes out!', 'Link': 'https://garfield.com'},
+  {'Date': new Date(2019, 6, 27), 'Title': '25 year anniversary', 'Link': 'https://www.google.com.au/#q=anniversary+gifts'},
+];
+var settings = {
+ Color: 'black',
+    LinkColor: 'blue',
+    NavShow: true,
+    NavVertical: false,
+    NavLocation: '',
+    DateTimeShow: true,
+    DateTimeFormat: 'mmm, yyyy',
+    DatetimeLocation: '',
+    EventClick: '',
+    EventTargetWholeDay: false,
+    DisabledDays: [],
+};
+var element = document.getElementById('caleandar'); 
+	caleandar(element, events, settings);
+</script>
+</body>
+</html>
