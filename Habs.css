@@ -1,0 +1,153 @@
+
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+@font-face {
+	font-family: "Avenir";
+	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+.head-bar {
+	height: 45px;
+	width: 300px;
+	color: white;
+	text-shadow: 1px 1px black;
+	background-color: #e6ccff;
+	text-align: center;
+}
+.cld-main{
+  width: 660px;
+}
+.cld-main a{
+  color: #7B00FF;
+}
+  .cld-datetime{
+    position: relative;
+    width: 66%;
+    min-width: 100px;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+  }
+  .cld-datetime .today{
+    position: relative;
+    float: left;
+    width: calc(100% - 40px);
+    margin: auto;
+    text-align: center;
+  }
+  .cld-nav{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+  }
+  .cld-nav:hover{
+    cursor: pointer;
+  }
+  .cld-nav:hover svg{
+      fill: #666;
+  }
+  .cld-rwd{
+    float: left;
+  }
+  .cld-fwd{
+    float: right;
+  }
+    .cld-nav svg:hover{
+
+    }
+.cld-labels, .cld-days{
+  padding-left: 0;
+}
+  .cld-label, .cld-day{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 14.28%;
+    text-align: center;
+  }
+  .cld-day{
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    height: 66px;
+    border: 1px solid #ddd;
+    overflow-y: auto;
+  }
+  .cld-day.clickable:hover{
+    cursor: pointer;
+  }
+  .cld-day.today{
+    border: 1px solid #7B00FF;
+  }
+  .cld-day.disableDay{
+    opacity: 0.5;
+  }
+  .cld-day.nextMonth, .cld-day.prevMonth{
+    opacity: 0.33;
+  }
+    .cld-number{
+      margin: 0;
+      text-align: left;
+    }
+      .cld-title{
+        font-size: 10px;
+        display: block;
+        margin: 0;
+        font-weight: normal;
+      }
+      .cld-day:hover{
+        background: #eee;
+      }
+      .cld-number.eventday{
+        font-weight: bold;
+      }
+      .cld-number.eventday:hover{
+        background: #eee;
+      }
+      .today .cld-number.eventday:hover{
+      }
+
+.button{
+	position:relative;
+	display: block;
+	height: 20px;
+	width: 80px;
+	background: white;
+	border: 2px solid black;
+	top: 5px;
+	left: 15px;
+	
+	color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+	font: bold 3.2em/100px;
+	box-shadow : 0 8px 0 #1b383b;
+	
+
+a.button {
+text-decoration: none;
+}
+.buttonl {
+	position:relative;
+	display:block;
+	height:25px;
+	width: 100px;
+	background: white;
+	border: 2px solid black;
+	
+	color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+	font: bold 3.2em/100px;
+	box-shadow : 0 8px 0 #1b383b;
+}
+

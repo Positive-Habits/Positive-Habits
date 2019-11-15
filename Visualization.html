@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <script src="Goal-adding.js"></script>
 	 <!-- Plotly.js -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- Numeric JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+ 
 </head>
 
 <body>
@@ -12,13 +14,14 @@
   <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
   <script>
    var data = [{
-  values: [19, 26],
-  labels: ['Habits completed', 'Habits In Progress'],
+  values: [0, goalcounter],
+  labels: ['Goals completed', 'Goals In Progress'],
   type: 'pie'
 }];
 
 Plotly.newPlot('myDiv', data, {}, {showSendToCloud:true});
 
   </script>
+  
 </body>
 </html>
