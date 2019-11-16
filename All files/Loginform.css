@@ -1,0 +1,44 @@
+
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+@font-face {
+	font-family: "Avenir";
+	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+/* Styling for top part of the phone*/
+.head-bar {
+	height: 45px;
+	width: 300px;
+	color: white;
+	text-shadow: 1px 1px black;
+	background-color: #e6ccff;
+	text-align: center;
+}
+.container{
+	
+}
+.remember{
+	position:relative;
+	padding:4px 8px;
+	top: 220px;
+}
+.Username{
+	position:relative;
+	padding:4px 8px;
+	top:165px;
+}
+.password{
+	position:relative;
+	padding:4px 8px;
+	top:200px;
+}
