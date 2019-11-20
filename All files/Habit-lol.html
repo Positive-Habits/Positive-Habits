@@ -1,0 +1,31 @@
+<html>
+<header>
+ <title>Page Title</title>
+	<link rel="stylesheet" type="text/css" href="Habs.css"/>
+	<a href= "https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	 <script src="Goal-adding.js"></script>
+</header>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+     <div class="button"><a href= "http://google.com"><i class="material-icons">arrow_back</i></a></div>
+   </div>
+
+<form action="calendarrep.html" method = "GET">
+Goal :   <input id ="goal1" placeholder = "type in a goal"
+<br><br>
+Start date:   <input id ="goal1date" placeholder = "start date yy/mm/dd"
+<br>
+<input type= "submit" value= "submit"/>
+<button type="button" id="print" onClick="testJS()"> Print </button>
+</form>
+<script>
+localStorage.setItem("goal1", getElementById("goal1").value);
+</script>
+</div>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
