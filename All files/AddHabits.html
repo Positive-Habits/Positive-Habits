@@ -11,15 +11,17 @@
      <div class="button"><a href= "today.html"><i class="material-icons">arrow_back</i></a></div>
    </div>
 
-<form action="today.html" method = "GET">
 
-Goal :  <input id ="goal1" placeholder = "type in a goal"
+
+Goal :  <input type ="text" name ="goal1" id= "goal1" placeholder = "type in a Habit"
 <br><br>
-Start date:  <input id ="goal1date" placeholder = "start date yy/mm/dd"
+Start time:  <input type="text" name ="start" id= "start" placeholder = "start time yy/mm/dd"
 <br><br>
-End date: <input id="goal1date" placeholder ="end date yy/mm/dd"
+End time: <input type= "text" name="end" id= "end" placeholder ="end time yy/mm/dd"
 <br><br>
-Category: <select name='dropdown'>
+Duration: <input type= "text" name = "Duration" id = "Duration" placeholder ="Duration"
+<br><br>
+Category: <select name='dropdown' id = 'dropdown' placeholder ="select a category">
   <option value = "Health">Health </option>
   <option value = "fitness">Fitness</option>
   <option value = "Educational">Education</option>
@@ -27,9 +29,9 @@ Category: <select name='dropdown'>
   <option value = "organizational">organization</option>
 </select>
 <br>
-Yeet Category: <input id = "yeet" placeholder ="yeet">
-<input type= "submit" value= "submit"/>
-</form>
+<button onClick='submitForm()'>Submit</button>
+
+<script src="storage.js"></script>
 </div>
 </body>
 </html>
