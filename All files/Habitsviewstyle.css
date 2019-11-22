@@ -31,7 +31,7 @@ body {
 	top: 125px;
 	left: 115px;
 	text-decoration: none;
-	
+
 	color: black;
 	text-align: center;
 	font: bold 3.2em/100px
@@ -54,41 +54,41 @@ a {
 }
 .stime{
 	position:relative;
-	bottom: 18px;
+	bottom: 15px;
 }
 .stimeval{
 	position:relative;
-	bottom: 46px;
+	bottom: 48px;
 	left:74px;
 }
 .etime{
 	position:relative;
-	bottom:77px;
+	bottom:81px;
 	left:150px;
 }
 .etimeval{
 	position:relative;
-	bottom: 107px;
+	bottom: 114px;
 	left: 219px;
 }
 .dura{
 	position:relative;
 	bottom: 120px;
-	
+
 }
 .duraval{
 	position:relative;
-	bottom: 149px;
+	bottom: 153px;
 	left:69px;
 }
 .cat{
 	position:relative;
-	bottom: 178px;
-	left: 139px;
+	bottom: 186px;
+	left: 144px;
 }
 .catval{
 	position:relative;
-	bottom: 207px;
+	bottom: 219px;
 	left: 213px;
 }
 .habitti{

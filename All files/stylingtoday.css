@@ -55,13 +55,13 @@ h1
 }
 */
 
-.albums-album-wrapper
+.today-wrapper
 {
 	width: 300px;
 	height: 485px;
 }
 
-.albums-album-art
+.today-task
 {
 	width: 200px;
 	height: 200px;
@@ -72,7 +72,7 @@ h1
 	left: 50px;
 }
 
-.albums-album-name
+.today-progress
 {
   position: relative;
   top: 200px;
@@ -83,7 +83,7 @@ h1
 {
   position: relative;
 	top: -240px;
-	left: 20px;
+	left: 30px;
 	text-align: centre;
 }
 
@@ -91,7 +91,7 @@ h1
 {
   position: relative;
 	top: -323px;
-	left: 175px;
+	left: 165px;
 	text-align: centre;
 }
 
@@ -99,7 +99,7 @@ h5
 {
   position: relative;
   top:30px;
-  left: 20px;
+  left: 30px;
 }
 
 .home-screen-icons
