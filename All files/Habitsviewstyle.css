@@ -17,11 +17,7 @@ body {
 .head-bar {
 	height: 45px;
 	width: 300px;
-	color: white;
-	text-shadow: 1px 1px black;
-	background-color: #e6ccff;
+	color: black;
+	background-color: #1569C7;
 	text-align: center;
-}
-.resutsl{
-	text-color: black;
 }
