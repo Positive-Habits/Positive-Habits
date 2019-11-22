@@ -21,3 +21,23 @@ body {
 	background-color: #1569C7;
 	text-align: center;
 }
+.button{
+	position:relative;
+	display: block;
+	height: 35px;
+	width: 70px;
+	background: gray;
+	border: 2px solid black;
+	top: 200px;
+	left: 115px;
+	text-decoration: none;
+	
+	color: black;
+	text-align: center;
+	font: bold 3.2em/100px
+	}
+a {
+	text-decoration: none;
+	color: black;
+}
+
