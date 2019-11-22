@@ -1,3 +1,4 @@
+
 body {
 	background-image: url("images/iphoneOL.jpg");
 	background-repeat: no-repeat;
@@ -14,7 +15,6 @@ body {
 	width: 300px;
 	margin: 105px 23px;
 }
-
 .head-bar {
 	height: 45px;
 	width: 300px;
@@ -23,105 +23,36 @@ body {
 	text-align: center;
 }
 
-.back-button
-{
-  position: relative;
-	top: -55px;
-	left: -130px;
-  cursor: pointer;
+a {
+	text-decoration: none;
+	color: black;
 }
 
-.cld-main{
-  width: 660px;
+h1{
+	font-size: 30px;
 }
-.cld-main a{
-  color: #7B00FF;
-}
-  .cld-datetime{
-    position: relative;
-    width: 66%;
-    min-width: 100px;
-    max-width: 300px;
-    margin: auto;
-    overflow: hidden;
-  }
-  .cld-datetime .today{
-    position: relative;
-    float: left;
-    width: calc(100% - 40px);
-    margin: auto;
-    text-align: center;
-  }
-  .cld-nav{
-    position: relative;
-    width: 20px;
-    height: 20px;
-    margin-top: 2px;
-  }
-  .cld-nav:hover{
-    cursor: pointer;
-  }
-  .cld-nav:hover svg{
-      fill: #666;
-  }
-  .cld-rwd{
-    float: left;
-  }
-  .cld-fwd{
-    float: right;
-  }
-    .cld-nav svg:hover{
 
-    }
-.cld-labels, .cld-days{
-  padding-left: 0;
+.button{
+	position:relative;
+	display: block;
+	height: 22px;
+	width: 60px;
+	background: gray;
+	border: 2px solid black;
+	bottom: 48px;
+	left: 6px;
+	text-decoration: none;
+	
+	color: black;
+	text-align: center;
+	font: bold 3.2em/100px
+	}
+.inputf{
+	position:relative;
+	height:275px;
+	top: 85px;
+	text-align: center;
 }
-  .cld-label, .cld-day{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 14.28%;
-    text-align: center;
-  }
-  .cld-day{
-    display: block;
-    float: left;
-    position: relative;
-    margin: 0;
-    padding: 5px;
-    height: 66px;
-    border: 1px solid #ddd;
-    overflow-y: auto;
-  }
-  .cld-day.clickable:hover{
-    cursor: pointer;
-  }
-  .cld-day.today{
-    border: 1px solid #7B00FF;
-  }
-  .cld-day.disableDay{
-    opacity: 0.5;
-  }
-  .cld-day.nextMonth, .cld-day.prevMonth{
-    opacity: 0.33;
-  }
-    .cld-number{
-      margin: 0;
-      text-align: left;
-    }
-      .cld-title{
-        font-size: 10px;
-        display: block;
-        margin: 0;
-        font-weight: normal;
-      }
-      .cld-day:hover{
-        background: #eee;
-      }
-      .cld-number.eventday{
-        font-weight: bold;
-      }
-      .cld-number.eventday:hover{
-        background: #eee;
-      }
-      .today .cld-number.eventday:hover{
-      }
+	
+
+
