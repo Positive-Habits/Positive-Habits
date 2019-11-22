@@ -1,39 +1,43 @@
 <html>
 <header>
- <title>Add Habit</title>
+ <title>Page Title</title>
 	<link rel="stylesheet" type="text/css" href="Habs.css"/>
+	<link href= "https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </header>
+
 <body>
    <div id="screen">
      <div class="head-bar">
-	 <h1> Add Habit</h1>
-     <div class="button"><a href= "today.html">Cancel</a></div>
+       <h1>New Habit</h1>
+
+     <div class="back-button">
+       <a href= "today.html">
+         <i class="material-icons">
+           arrow_back
+         </i>
+       </a>
+     </div>
    </div>
 
+<form action="today.html" method = "GET">
 
-<div class = "inputf">
-<a>Goal : </a><input type ="text" name ="goal1" id= "goal1" placeholder = "Enter a Habit" required>
-<br><br><br>
-<a>Start time: </a><input type="text" name ="start" id= "start" placeholder = "Enter a start time" required>
-<br><br><br>
-<a>End time: </a><input type= "text" name="end" id= "end" placeholder ="Enter a end time" required>
-<br><br><br>
-<a>Duration: </a><input type= "text" name = "Duration" id = "Duration" placeholder ="Enter a duration" required>
-<br><br><br>
-<a>Category: </a><select name='dropdown' id = 'dropdown' placeholder ="select a category">
+<p> &emsp; Goal :  <input id ="goal1" placeholder = "type in a goal"<br><br></p>
+<p> &emsp; Start date:  <input id ="goal1date" placeholder = "start date yy/mm/dd"<br><br></p>
+<p> &emsp; End date: <input id="goal1date" placeholder ="end date yy/mm/dd"<br><br></p>
+<p> &emsp; Category: <select name='dropdown'>
   <option value = "Health">Health </option>
   <option value = "fitness">Fitness</option>
-  <option value = "Education">Education</option>
-  <option value = "Recreation">Recreation</option>
-  <option value = "organize">organize</option>
-</select>
-<br><br>
-<a href = "HabitsView.html"><button onClick='submitForm()'>Submit</button></a>
-</div>
-<script src="storage.js"></script>
+  <option value = "Educational">Education</option>
+  <option value = "Recreational">Recreation</option>
+  <option value = "organizational">organization</option>
+</select><br></p>
+<p> &emsp; Yeet Category: <input id = "yeet" placeholder ="yeet"></p>
+<p> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <input type= "submit" value= "submit"/></p>
+</form>
 </div>
 </body>
 </html>
-<!-- 
+<!--
 * bg iphone img is 363x762px
 * iphone 'screen' is apprx 300x530 -->

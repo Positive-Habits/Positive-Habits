@@ -1,113 +1,59 @@
+<!-- Habits -->
+
 <html>
-
     <header>
-
         <title>Home Page</title>
-
         <link rel="stylesheet" type="text/css" href="stylingtoday.css"/>
-
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-
            rel="stylesheet">
-
     </header>
 
-
-
     <body>
-
         <div id="screen">
-
               <div class="head-bar">
-
                 <h1>Today</h1>
-
               </div>
 
-
-
-              <div class= "back-button">
-
+<!--         <div class= "back-button">
                 <i class="material-icons">
-
                    arrow_back
-
                 </i>
-
               </div>
 
-
-
-              <div class= "newTask">
-
+             <div class= "newTask">
               </div>
-
-
-
+-->
             <div class = "albums-album-wrapper">
-
                  <div class = "albums-album-art">
-
                    <div class = "albums-album-name">
-
-                     <h5>Completed &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Pending</h5>
-
+                     <h5>Completed &emsp; &emsp; &emsp; &emsp; Pending</h5>
                    </div>
-
                  </div>
-
              </div>
-
-
 
              <ol class ="completed">
-
                 <li>Task 1</li>
-
                 <li>Task 2</li>
-
                 <li>Task 3</li>
-
              </ol>
-
-
 
              <ol class ="pending">
-
                 <li>Task 4</li>
-
                 <li>Task 5</li>
-
              </ol>
 
-
-
              <div class = "home-screen-icons"><!-- 5 icons -->
-
-				<button class="icon1"></button>
-
-               <button class="icon2" ></button>
-
-              <a href = "AddHabits.html"> <button class="icon3" ></button></a>
-
-               <button class="icon4" ></button>
-
-               <button class="icon5" ></button>
-
+               <button class="icon1" onclick="habits()"></button>
+<!--           <button class="icon2" onclick="calendar()"></button>     -->
+               <button class="icon2" onclick="newHabit()"></button>
+               <button class="icon3" onclick="reminders()"></button>
+<!--           <button class="icon5" onclick="settings()"></button>     -->
              </div>
-
         </div>
-
         <script src="habits.js">
-
         </script>
-
    </body>
-
 </html>
-
 <!--
-
 * bg iphone img is 363x762px
-
 * iphone 'screen' is apprx 300x530 -->
