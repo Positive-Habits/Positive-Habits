@@ -24,11 +24,11 @@ body {
 .button{
 	position:relative;
 	display: block;
-	height: 35px;
+	height: 30px;
 	width: 70px;
 	background: gray;
 	border: 2px solid black;
-	top: 200px;
+	top: 125px;
 	left: 115px;
 	text-decoration: none;
 	
@@ -40,4 +40,60 @@ a {
 	text-decoration: none;
 	color: black;
 }
+.results{
+	position:relative;
+	height:275px;
+	top: 20px;
+	left: 5px;
+	font-size: 14px;
+}
 
+.division{
+	position:relative;
+	bottom: 8px;
+}
+.stime{
+	position:relative;
+	bottom: 18px;
+}
+.stimeval{
+	position:relative;
+	bottom: 46px;
+	left:74px;
+}
+.etime{
+	position:relative;
+	bottom:77px;
+	left:150px;
+}
+.etimeval{
+	position:relative;
+	bottom: 107px;
+	left: 219px;
+}
+.dura{
+	position:relative;
+	bottom: 120px;
+	
+}
+.duraval{
+	position:relative;
+	bottom: 149px;
+	left:69px;
+}
+.cat{
+	position:relative;
+	bottom: 178px;
+	left: 139px;
+}
+.catval{
+	position:relative;
+	bottom: 207px;
+	left: 213px;
+}
+.habitti{
+	position:relative;
+	left: 120px;
+	bottom: 3px;
+	font-size: 16px;
+}
