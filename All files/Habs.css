@@ -15,10 +15,11 @@ body {
 	width: 300px;
 	margin: 105px 23px;
 }
-.head-bar {
+.head-bar
+{
 	height: 45px;
 	width: 300px;
-	color: black;
+	color: white;
 	background-color: #1569C7;
 	text-align: center;
 }
@@ -32,27 +33,37 @@ h1{
 	font-size: 30px;
 }
 
-.button{
-	position:relative;
-	display: block;
-	height: 22px;
-	width: 60px;
-	background: gray;
-	border: 2px solid black;
-	bottom: 48px;
-	left: 6px;
-	text-decoration: none;
-	
-	color: black;
-	text-align: center;
-	font: bold 3.2em/100px
-	}
 .inputf{
 	position:relative;
 	height:275px;
 	top: 85px;
 	text-align: center;
 }
-	
 
+.icon1
+{
+	position: relative;
+	top: 142px;
+	left: 1px;
+	height: 50px;
+	width:146px;
+	border: 1px solid white;
+	background-color: #1569C7;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
 
+.icon2
+{
+	position: relative;
+	top: 142px;
+	left: -1px;
+	height: 50px;
+	width:146px;
+	border: 1px solid white;
+	background-color: #1569C7;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}

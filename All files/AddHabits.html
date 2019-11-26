@@ -7,9 +7,6 @@
    <div id="screen">
      <div class="head-bar">
 	 <h1> Add Habit</h1>
-     <div class="button"><a href= "today.html">Cancel</a></div>
-   </div>
-
 
 <div class = "inputf">
 <a>Goal : </a><input type ="text" name ="goal1" id= "goal1" placeholder = "Enter a Habit" required>
@@ -28,12 +25,16 @@
   <option value = "organize">organize</option>
 </select>
 <br><br>
-<a href = "HabitsView.html"><button onClick='submitForm()'>Submit</button></a>
+</div>
+
+<div class = "Add-Habit-icons">
+     <a href = "HabitsView.html"><button class = "icon1" onClick='submitForm()'><h3>Submit</h3></button></a>
+     <a href = "today.html"><button class = "icon2"><h3>Cancel</h3></button></a>
 </div>
 <script src="storage.js"></script>
 </div>
 </body>
 </html>
-<!-- 
+<!--
 * bg iphone img is 363x762px
 * iphone 'screen' is apprx 300x530 -->

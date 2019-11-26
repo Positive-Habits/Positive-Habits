@@ -14,28 +14,35 @@ body {
 	width: 300px;
 	margin: 105px 23px;
 }
-.head-bar {
+
+.head-bar
+{
 	height: 45px;
 	width: 300px;
-	color: black;
+	color: white;
 	background-color: #1569C7;
 	text-align: center;
 }
-.button{
+
+/*
+.button
+{
 	position:relative;
 	display: block;
-	height: 28px;
-	width: 70px;
+	height: 25px;
+	width: 55px;
 	background: gray;
 	border: 2px solid black;
-	top: 125px;
-	left: 115px;
+	top: -57.5px;
+	left: 5px;
 	text-decoration: none;
 
 	color: black;
 	text-align: center;
 	font: bold 3.2em/100px
 	}
+	*/
+
 a {
 	text-decoration: none;
 	color: black;
@@ -96,4 +103,32 @@ a {
 	left: 120px;
 	bottom: 3px;
 	font-size: 16px;
+}
+
+.icon1
+{
+	position: relative;
+	top: 158px;
+	left: 3px;
+	height: 50px;
+	width:146.5px;
+	border: 1px solid white;
+	background-color: #1569C7;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.icon2
+{
+	position: relative;
+	top: 158px;
+	left: 0px;
+	height: 50px;
+	width:146.5px;
+	border: 1px solid white;
+	background-color: #1569C7;
+	color: white;
+	text-align: center;
+	cursor: pointer;
 }

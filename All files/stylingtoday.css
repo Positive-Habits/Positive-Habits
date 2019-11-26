@@ -26,7 +26,7 @@ h1
 	height: 45px;
 	width: 300px;
 	background-color: #1569C7;
-
+	color: white;
 }
 
 /*
@@ -112,17 +112,16 @@ h5
 .icon1
 {
   position: relative;
-  top: -160px;
-	left: 0px;
+  top: -163px;
+	left: -5px;
   float : left;
-  width: 100px;
-  height: 100px;
-  background: transparent;
-  border: none;
-  background-image: url(images/punctuality.png);
-  background-size: 70%;
-  background-repeat: no-repeat;
-  transform: translate(5%, -25%);
+  width: 99px;
+  height: 50px;
+	border: 1px solid white;
+	margin: 2px;
+	background-color: #1569C7;
+	color: white;
+  text-align: center;
   cursor: pointer;
   }
 /*
@@ -146,17 +145,16 @@ h5
 .icon2
 {
   position: relative;
-  top: -160px;
-	left: 10px;
+  top: -163px;
+	left: -9px;
   float : left;
-  width: 100px;
-  height: 100px;
-  background: transparent;
-  border: none;
-  background-image: url(images/add.png);
-  background-size: 50%;
-  background-repeat: no-repeat;
-  transform: translate(10%, -10%);
+  width: 99px;
+  height: 50px;
+	border: 1px solid white;
+	margin: 2px;
+	background-color: #1569C7;
+	color: white;
+  text-align: center;
   cursor: pointer;
 }
 /*
@@ -180,16 +178,15 @@ h5
 .icon3
 {
   position: relative;
-  top: -160px;
-	left: 120px;
+  top: -217px;
+	left: 193px;
   float : left;
-  width: 100px;
-  height: 100px;
-  background: transparent;
-  border: none;
-	background-image: url(images/reminder.png);
-  background-size: 60%;
-  background-repeat: no-repeat;
-  transform: translate(-90%, -13%);
+  width: 97.5px;
+  height: 50px;
+	border: 1px solid white;
+	margin: 2px;
+	background-color: #1569C7;
+	color: white;
+  text-align: center;
   cursor: pointer;
 }
