@@ -1,0 +1,38 @@
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+@font-face {
+	font-family: "Avenir";
+	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar
+{
+	height: 45px;
+	width: 300px;
+	color: white;
+	background-color: #1569C7;
+	text-align: center;
+}
+.icon1
+{
+	position: relative;
+	top: 410px;
+	left: 80px;
+	height: 50px;
+	width:147.5px;
+	border: 1px solid white;
+	background-color: #1569C7;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
