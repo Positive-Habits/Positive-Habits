@@ -24,91 +24,25 @@ body {
 	text-align: center;
 }
 
-/*
-.button
-{
-	position:relative;
-	display: block;
-	height: 25px;
-	width: 55px;
-	background: gray;
-	border: 2px solid black;
-	top: -57.5px;
-	left: 5px;
-	text-decoration: none;
-
-	color: black;
-	text-align: center;
-	font: bold 3.2em/100px
-	}
-	*/
-
 a {
 	text-decoration: none;
 	color: black;
 }
-.results{
-	position:relative;
-	height:275px;
-	top: 20px;
-	left: 5px;
-	font-size: 14px;
+
+p{
+	display:inline;
 }
 
-.division{
-	position:relative;
-	bottom: 8px;
+.habit{
+	text-align:center;
+	position: relative;
+	top: 10px;
+	font-size:14px;
 }
-.stime{
-	position:relative;
-	bottom: 15px;
-}
-.stimeval{
-	position:relative;
-	bottom: 48px;
-	left:74px;
-}
-.etime{
-	position:relative;
-	bottom:81px;
-	left:150px;
-}
-.etimeval{
-	position:relative;
-	bottom: 114px;
-	left: 219px;
-}
-.dura{
-	position:relative;
-	bottom: 120px;
-
-}
-.duraval{
-	position:relative;
-	bottom: 153px;
-	left:69px;
-}
-.cat{
-	position:relative;
-	bottom: 186px;
-	left: 144px;
-}
-.catval{
-	position:relative;
-	bottom: 219px;
-	left: 213px;
-}
-.habitti{
-	position:relative;
-	left: 120px;
-	bottom: 3px;
-	font-size: 16px;
-}
-
 .icon1
 {
 	position: relative;
-	top: 159px;
+	top: 120px;
 	left: 2px;
 	height: 50px;
 	width:147.5px;
@@ -122,7 +56,7 @@ a {
 .icon2
 {
 	position: relative;
-	top: 159px;
+	top: 120px;
 	left: -1.5px;
 	height: 50px;
 	width:147.5px;
