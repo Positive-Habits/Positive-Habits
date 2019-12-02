@@ -6,25 +6,21 @@
 <body>
    <div id="screen">
      <div class="head-bar">
-	     <h1> Add Habit</h1>
-     </div>
+	     <h1> Add Habit</h1></div>
 
 <form action="Habits-View.html" method = "GET">
 
   <div class ="goal">
     <label for="goals"><b>Goal</b></label>
-    <input type="text" id="goal1" placeholder="Enter a habit" name="goals" required>
-  </div>
+    <input type="text" id="goal1" placeholder="Enter a habit" name="goals" required></div>
 
   <div class ="stime">
     <label for="start"><b>Start time</b></label>
-    <input type="time" id="start" name="start" min="00:00" max="23:59" required>
-  </div>
+    <input type="time" id="start" name="start" min="00:00" max="23:59" required></div>
 
   <div class ="etime">
     <label for="end"><b>End time</b></label>
-    <input type="time" id="end" name="end" min="00:00" max="23:59" required>
-  </div>
+    <input type="time" id="end" name="end" min="00:00" max="23:59" required></div>
 
   <div class ="duration">
     <label for="dur"><b>Duration</b></label>
@@ -41,8 +37,7 @@
 	<option value = "10 hours">10 hours</option>
 	<option value = "11 hours">11 hours</option>
 	<option value = "12 hours">12 hours</option>
-	</select>
-  </div>
+	</select></div>
 
   <div class = "category">
     <label for="cat"><b>Category</b></label>
@@ -52,13 +47,14 @@
        <option value = "Education">Education</option>
        <option value = "Recreation">Recreation</option>
        <option value = "organize">Organize</option>
-    </select>
-  </div>
-</form>
+    </select></div>
+
 <div class = "Add-Habit-icons">
      <a href = "Habits-View.html"><button class = "icon1" onClick='submitForm()'><h3>Submit</h3></button></a>
+	 </form>
+	 </div>
      <a href = "today.html"><button class = "icon2"><h3>Cancel</h3></button></a>
-</div>
+	
 <script src="storage.js"></script>
 </div>
 </body>

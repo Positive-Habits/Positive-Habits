@@ -2,7 +2,6 @@
 //document.getElementById("result").innerHTML = localStorage.getItem("lastname");
 
 function submitForm() {
-	
 	goal1 = document.getElementById('goal1').value;
 	if (goal1 == "") {
     alert("Name must be filled out");
