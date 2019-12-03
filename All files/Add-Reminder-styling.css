@@ -1,0 +1,96 @@
+/* Add Habits styling  */
+
+
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+/* @font-face {
+	font-family: "Avenir";
+	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
+} */
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+.head-bar
+{
+	height: 45px;
+	width: 300px;
+	color: white;
+	background-color: #1569C7;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	font-size: 30px;
+}
+
+.reminder
+{
+	position:relative;
+	top: 70px;
+	left: -25px;
+	text-align: center;
+}
+
+.rtime
+{
+	position:relative;
+	top: 140px;
+	left: -25px;
+	text-align: center;
+}
+
+.priority
+{
+	position:relative;
+	top: 210px;
+	left: -45px;
+	text-align: center;
+}
+
+.notes
+{
+	position:relative;
+	top: 280px;
+	left: -27px;
+	text-align: center;
+}
+
+.icon1
+{
+	position: relative;
+	top: 345px;
+	left: 2px;
+	height: 50px;
+	width:147.5px;
+	border: 1px solid white;
+	background-color: #1569C7;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.icon2
+{
+	position: relative;
+	top: 345px;
+	left: -1px;
+	height: 50px;
+	width:147.5px;
+	border: 1px solid white;
+	background-color: #1569C7;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}

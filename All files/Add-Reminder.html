@@ -1,0 +1,49 @@
+<!-- Add Reminder -->
+
+<html>
+<header>
+ <title>Add Habit</title>
+	<link rel="stylesheet" type="text/css" href="Add-Reminder-styling.css"/>
+</header>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+	     <h1> Add Reminder</h1></div>
+
+  <div class ="reminder">
+    <label for="rem"><b>Reminder for</b></label>
+    <select name='rem' id = 'dropdown' placeholder ="select a Habit">
+       <option value = "Habit1">Habit 1 </option>
+       <option value = "Habit2">Habit 2</option>
+       <option value = "Habit3">Habit 3</option>
+    </select></div>
+
+  <div class ="rtime">
+    <label for="remtime"><b>Reminder at</b></label>
+    <input type="time" id="start" name="remtime" min="00:00" max="23:59" required></div>
+
+
+  <div class = "priority">
+    <label for="pri"><b>Priority</b></label>
+    <select name='pri' id = 'dropdown' placeholder ="select a Priority Level">
+       <option value = "Priority1">Level 1 </option>
+       <option value = "Priority2">Level 2</option>
+       <option value = "Priority3">Level 3</option>
+    </select></div>
+
+    <div class ="notes">
+      <label for="info"><b>Notes</b></label>
+      <input type="text" id="end" name="info" required></div>
+
+  <div class = "Add-Habit-icons">
+     <a href = "Reminders.html"><button class = "icon1" onClick='submitForm()'><h3>Submit</h3></button></a></form>
+     <a href = "today.html"><button class = "icon2"><h3>Cancel</h3></button></a>
+  </div>
+
+<script src="remstorage.js"></script> 
+</div>
+</body>
+</html>
+<!--
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

@@ -1,13 +1,16 @@
-body {
+/* Habits page styling  */
+
+body
+{
 	background-image: url("images/iphoneOL.jpg");
 	background-repeat: no-repeat;
-	font-family: Avenir, sans-serif;
+  font-family: Avenir, sans-serif;
 }
 
-@font-face {
+/* @font-face {
 	font-family: "Avenir";
 	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
-}
+} */
 
 #screen {
 	height: 530px;
@@ -42,7 +45,7 @@ p{
 .icon1
 {
 	position: relative;
-	top: 120px;
+	top: 80px;
 	left: 2px;
 	height: 50px;
 	width:147.5px;
@@ -56,7 +59,7 @@ p{
 .icon2
 {
 	position: relative;
-	top: 120px;
+	top: 80px;
 	left: -1.5px;
 	height: 50px;
 	width:147.5px;
