@@ -26,8 +26,8 @@ body {
 .icon1
 {
 	position: relative;
-	top: 7px;
-	left: 2px;
+	top: 170px;
+	left: 75px;
 	height: 50px;
 	width:147.5px;
 	border: 1px solid white;
@@ -36,53 +36,20 @@ body {
 	text-align: center;
 	cursor: pointer;
 }
-
-.icon2
-{
-	position: relative;
-	top: 7px;
-	left: -1.5px;
-	height: 50px;
-	width:147.5px;
-	border: 1px solid white;
-	background-color: #1569C7;
-	color: white;
-	text-align: center;
-	cursor: pointer;
-}
-
-.unlockbad
-{
+.unlockbad{
 	font-size:13px;
-	position: relative;
-	top: 5px;
-	left: 5px;
 }
-
-.unlockicon
-{
+.lockbad{
+	font-size:13px;
+}
+.unlockicon{
 	font-size:36px;
 	color: blue;
-	margin-top: 5px;
 }
-
-.lockbad
-{
-	font-size:13px;
-	position: relative;
-	top: -20px;
-	left: 5px;
+.lockicon{
+	font-size:48px;
+	height: 50px;
 }
-
-.lockicon
-{
-	font-size:50px;
-	top: 0px;
-	margin: -10px;
-	margin-top: 10px;
-	margin-left: -8px;
-}
-/* .materials-icons.md-18{
+.materials-icons.md-18{
 	font-size:100px;
-	left: 5px;
-} */
+}
