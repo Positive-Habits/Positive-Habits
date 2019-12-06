@@ -1,0 +1,50 @@
+<!-- Sign Up page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="SignUp-styling.css"/>
+</head>
+<body>
+<div id="screen">
+              <div class="head-bar">
+                    <h1>Sign Up</h1></div>
+
+<form action="today.html" method="post">
+
+		<div class= "email">
+			<label for="emailid"><b>Email</b></label>
+			<input type="text" id ="email" placeholder="Enter email" name="emailid" required>
+		</div>
+
+		<div class= "Username">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" id ="username" placeholder="Enter Username" name="uname" required>
+    </div>
+
+    <div class="password">
+      <label for="psw"><b>Password</b></label>
+      <input type="password" id ="password" placeholder="Enter Password" name="psw" required>
+    </div>
+
+    <div class="repeat-password">
+      <label for="rpsw"><b>Confirm Password</b></label>
+      <input type="password" id ="password" placeholder="Confirm Password" name="rpsw" required>
+    </div>
+
+		<div class="submit">
+       <button class="icon" type="submit"><b>Sign Up</b></button>
+		</div>
+
+   <div class = "remember">
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+	</div>
+
+</form>
+<script src="SignUp.js"></script>
+</div>
+</body>
+</html>

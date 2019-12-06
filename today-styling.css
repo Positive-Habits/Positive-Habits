@@ -1,0 +1,85 @@
+/* Personal Habits */
+
+body
+{
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+
+}
+
+#screen
+{
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+h1
+{
+	position: relative;
+  text-align: center;
+}
+
+.head-bar
+{
+	height: 45px;
+	width: 300px;
+	background-color: #1569C7;
+	color: white;
+}
+
+.home-screen-icons
+{
+  position: relative;
+	top: -70px;
+	left: 5px;
+}
+
+.icon1
+{
+  position: relative;
+  top: 170px;
+	left: 70px;
+  float : left;
+  width: 150px;
+  height: 50px;
+	border: 1px solid white;
+	margin: 2px;
+	background-color: #1569C7;
+	color: white;
+  text-align: center;
+  cursor: pointer;
+  }
+
+.icon2
+{
+  position: relative;
+  top: 210px;
+	left: 71px;
+  float : left;
+  width: 150px;
+  height: 50px;
+	border: 1px solid white;
+	margin: 2px;
+	background-color: #1569C7;
+	color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon3
+{
+  position: relative;
+  top: 250px;
+	left: 71px;
+  float : left;
+  width: 150px;
+  height: 50px;
+	border: 1px solid white;
+	margin: 2px;
+	background-color: #1569C7;
+	color: white;
+  text-align: center;
+  cursor: pointer;
+}

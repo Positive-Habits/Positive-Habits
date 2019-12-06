@@ -1,0 +1,66 @@
+/* Login Page styling */
+body
+{
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+@font-face
+{
+	font-family: "Avenir";
+	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
+}
+
+#screen
+{
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+/* Styling for top part of the phone*/
+.head-bar
+{
+	height: 45px;
+	width: 300px;
+	color: white;
+	background-color: #1569C7;
+	text-align: center;
+}
+
+.Username
+{
+	position:relative;
+	padding:4px 8px;
+	top:125px;
+	left: 45px;
+}
+.password
+{
+	position:relative;
+	padding:4px 8px;
+	top:150px;
+	left: 45px;
+}
+
+.icon
+{
+	position:relative;
+	top:185px;
+	left: 115px;
+	height: 30px;
+	width: 70px;
+	background-color: #1569C7;
+	border: 1px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+.remember
+{
+	position:relative;
+	padding:4px 8px;
+	top: 240px;
+	left: 75px;
+}
