@@ -1,7 +1,7 @@
 function read(form){
 if(form.uname.value == "rawr" && form.psw.value == "yeet")
 	{
-      window.open('today.html');	
+      window.open('today.html');
 	}
 	else if(form.uname.value == "cool" && form.psw.value =="elite")
 	{
@@ -9,6 +9,6 @@ if(form.uname.value == "rawr" && form.psw.value == "yeet")
 	}
 	else
 	{
-		alert("wrong");
+		alert("Incorrect username or password");
 	}
 }
