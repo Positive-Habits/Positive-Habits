@@ -1,0 +1,39 @@
+/* Profile 1 styling */
+
+body
+{
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+#screen
+{
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+h1
+{
+	position: relative;
+	text-align: center;
+}
+
+.head-bar {
+	height: 45px;
+	width: 300px;
+	background-color: #1569C7;
+}
+
+.image
+{
+	top: 50px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+	background-image: url(images/profile2.jpg);
+	background-size: 100%;
+	position: relative;
+	cursor: pointer;
+}
